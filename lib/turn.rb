@@ -38,5 +38,8 @@ def turn(board)
   input_to_index(input)
     if input == true
     move(board, index, value ="X")
+  else
+    input=gets.chomp
+    input_to_index(input)
   end
 end
